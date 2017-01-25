@@ -1,0 +1,103 @@
+body {
+  background-color: #EBEBEB;
+  font-family:'PT Serif', serif;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  color: #999999;
+  font-size:'Montserrat', sans-serif;
+}
+
+h1{
+  color: #DD5555;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 19px;
+}
+
+h3{
+  font-size: 17px;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+#img-profile {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #cccccc;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  text-decoration: underline;
+  background-color: #253B6E;
+  color: white
+}
+
+#movies img {
+  width: 80px;
+}
+
+#movies td {
+  padding: 10px;
+}
+
+#movies {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+a:hover {
+  color: #253B6E;
+}
+
+.logo {
+  font-size: 20px
+}
